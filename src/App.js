@@ -1,11 +1,17 @@
+import React from 'react';
+
 // css
 import './App.css';
 
-function App() {
+// componets
+import Counter from './features/Counter';
+
+const App = () => {
   return (
-    <div className="App">
-      This is React-redux tuts
-    </div>
+      <>
+        <h1 style={{textAlign:'center', margin:'25px'}}>COUNTER</h1>
+        <Counter />
+      </>
   );
 }
 
